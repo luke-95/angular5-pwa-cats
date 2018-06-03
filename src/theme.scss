@@ -25,6 +25,16 @@ $theme: mat-light-theme($primary, $accent, $warn);
     footer a {
         color: white;
     }
+
+    .mat-card-image {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .mat-toolbar {
+        width:100%;
+    }
 }
  
 @include supporting-theme($theme);
