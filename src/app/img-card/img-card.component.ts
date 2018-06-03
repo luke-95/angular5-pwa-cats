@@ -15,7 +15,7 @@ class CatImage {
 export class ImgCardComponent implements OnInit {
 
   private image: CatImage = {
-    message: 'Progressive Web Cat',
+    message: 'Meow',
     api: 'https://cataas.com/cat/says/',
     fontsize: 40
   };
